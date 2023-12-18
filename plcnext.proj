@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.phoenixcontact.com/schema/cliproject">
+  <Target>EPC1502,2022.0.7 LTS (22.0.7.120)</Target>
+  <Version>1.1</Version>
+  <Name>Plctest</Name>
+</ProjectSettings>
