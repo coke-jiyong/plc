@@ -32,7 +32,7 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
     }
     catch (const std::exception& e) {
         log.Debug("ExampleAuthenticationProvider: Error occurred={0}", e.what());
-        goto end;
+        mod.licenseCheckFail();
     }
 
     try{
@@ -40,7 +40,7 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
     }
     catch(const std::exception& e){
         log.Debug("ExampleAuthenticationProvider: Error occurred={0}", e.what());
-        goto end;
+        mod.licenseCheckFail();
     }
 
     if (dec_obj.has_claim("hostid")) {
@@ -49,12 +49,12 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
         }
         catch(const exception& e){
             log.Debug("ExampleAuthenticationProvider: Error occurred={0}", e.what());
-            goto end;
+            mod.licenseCheckFail();
         }
         try{
             if (payload.compare(hostId)) {
                 log.Debug("ExampleAuthenticationProvider: HostID compare failed");
-                goto end;
+                mod.licenseCheckFail();
             }
             else{
                 log.Debug("ExampleAuthenticationProvider: License Check SUCCESS");
@@ -62,16 +62,14 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
         }
         catch(const exception& e){
             log.Debug("ExampleAuthenticationProvider: Error occurred={0}", e.what());
-            goto end;
+            mod.licenseCheckFail();
         }
     }
     else {
         log.Debug("ExampleAuthenticationProvider: HasClaim=false");
-        goto end;
+        mod.licenseCheckFail();
     }
     
-    end:
-    mod.licenseCheckFail();
 }
 
 UmAuthenticationResult ExampleAuthenticationProvider::AuthenticateUser(const String& username,
