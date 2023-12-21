@@ -7,8 +7,6 @@
 #include "ExampleAuthenticationProvider.hpp"
 #include "UmModuleEx.hpp"
 #include "UmModuleExConfig.hpp"
-#include "curl.h"
-#include "json.h"
 #include "otacverify.h"
 #include "jwt/jwt.hpp"
 
@@ -19,14 +17,15 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
     : mod(_mod)
 {   
     using namespace jwt::params;
-    const std::string pub_key_path = "/opt/plcnext/test/rsa_256/pub.key";
+    const std::string pub_key_path = "/opt/plcnext/test/rsa_256/test.key";
     const std::string token_path = "/opt/plcnext/test/testLicense";
     auto pub_key = read_from_file(pub_key_path);
     auto token = read_from_file(token_path); //license file
     jwt::jwt_object dec_obj;
     std::string hostId;
-    std::string payload;
-    
+    String payload;
+    std::vector<string> v;
+
     try {
         dec_obj = jwt::decode(token, algorithms({"RS256"}), verify(true), secret(pub_key));
     }
@@ -43,21 +42,33 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
         mod.licenseCheckFail();
     }
 
-    if (dec_obj.has_claim("hostid")) {
+    if (dec_obj.has_claim("hostId")) {
         try{
-            payload = dec_obj.payload().get_claim_value<std::string>("hostid"); //payload hostID
-        }
-        catch(const exception& e){
-            log.Debug("ExampleAuthenticationProvider: Error occurred={0}", e.what());
-            mod.licenseCheckFail();
-        }
-        try{
-            if (payload.compare(hostId)) {
-                log.Debug("ExampleAuthenticationProvider: HostID compare failed");
-                mod.licenseCheckFail();
+            payload = dec_obj.payload().get_claim_value<std::string>("hostId"); //payload hostID
+            int flag = 0;
+            if (payload.Find('|') != -1){
+                v = split(payload,'|');
+                for (int i = 0 ; i < v.size() ; i ++){
+                    //log.Debug("ExampleAuthenticationProvider: payload hostid={0}", v[i]);
+                    if(!v[i].compare(hostId)){
+                        log.Debug("ExampleAuthenticationProvider: License Check SUCCESS");
+                        flag = 1;
+                        break;
+                    }
+                }
+                if (flag != 1) {
+                    log.Debug("ExampleAuthenticationProvider: HostID compare failed");
+                    mod.licenseCheckFail();
+                }
             }
             else{
-                log.Debug("ExampleAuthenticationProvider: License Check SUCCESS");
+                if (!payload.Compare(hostId)) {
+                    log.Debug("ExampleAuthenticationProvider: License Check SUCCESS");
+                }
+                else {
+                    log.Debug("ExampleAuthenticationProvider: HostID compare failed");
+                    mod.licenseCheckFail();
+                }
             }
         }
         catch(const exception& e){
@@ -70,6 +81,7 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
         mod.licenseCheckFail();
     }
     
+    vector<string>().swap(v);
 }
 
 UmAuthenticationResult ExampleAuthenticationProvider::AuthenticateUser(const String& username,
