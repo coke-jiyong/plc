@@ -57,7 +57,7 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
                     }
                 }
                 if (flag != 1) {
-                    log.Debug("ExampleAuthenticationProvider: HostID compare failed");
+                    log.Debug("ExampleAuthenticationProvider: HostID Comparison failed");
                     mod.licenseCheckFail();
                 }
             }
@@ -66,7 +66,7 @@ ExampleAuthenticationProvider::ExampleAuthenticationProvider(UmModuleEx& _mod)
                     log.Debug("ExampleAuthenticationProvider: License Check SUCCESS");
                 }
                 else {
-                    log.Debug("ExampleAuthenticationProvider: HostID compare failed");
+                    log.Debug("ExampleAuthenticationProvider: HostID Comparison failed");
                     mod.licenseCheckFail();
                 }
             }
@@ -117,7 +117,8 @@ UmAuthenticationResult ExampleAuthenticationProvider::AuthenticateUser(const Str
     {
         if (Root["result"] == "SUCCESS")
         {  
-            std::list<String> roles;
+            list<String> roles;
+            
             String Roles(Root["userRoles"].asCString());
 
             if (Roles.Find('|') != -1)
@@ -128,12 +129,16 @@ UmAuthenticationResult ExampleAuthenticationProvider::AuthenticateUser(const Str
                 {
                     roles.push_back(result[i]);
                 }
-                
                 sessionInfo.SetRoles(roles);
+
+                vector<string>().swap(result);
+                list<String>().swap(roles);
+
                 return UmAuthenticationResult::Success;
             }
                 roles = {Roles};
-                sessionInfo.SetRoles(roles);            
+                sessionInfo.SetRoles(roles);   
+                std::list<String>().swap(roles);         
                 return UmAuthenticationResult::Success;
         }
         else
