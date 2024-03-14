@@ -1,0 +1,7 @@
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/install/strip.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/install/local.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/NewProject1.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/list_install_components.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/install.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/edit_cache.dir
+/home/plc2/work/NewProject1/intermediate/cmake/AXCF2152,22.6.0.43/Release/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.phoenixcontact.com/schema/cliproject">
+  <Target>AXCF3152,2022.0.5 LTS (22.0.5.102)</Target>
+  <Version>1.1</Version>
+  <Name>Axcf3152</Name>
+</ProjectSettings>

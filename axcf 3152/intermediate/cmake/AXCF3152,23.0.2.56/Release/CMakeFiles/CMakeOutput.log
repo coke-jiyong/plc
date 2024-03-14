@@ -1,0 +1,693 @@
+The target system is: Linux -  - x86_64
+The host system is: Linux - 5.4.0-171-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/3.13.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/3.13.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_276fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_276fc.dir/build.make CMakeFiles/cmTC_276fc.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_276fc.dir/testCCompiler.c.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -o CMakeFiles/cmTC_276fc.dir/testCCompiler.c.o   -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_276fc
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276fc.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_276fc.dir/testCCompiler.c.o  -o cmTC_276fc 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e7b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e7b7.dir/build.make CMakeFiles/cmTC_4e7b7.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -o CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o   -c /home/plc/plcncli/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4e7b7
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e7b7.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2  -v CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o  -o cmTC_4e7b7 
+Using built-in specs.
+COLLECT_GCC=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc
+COLLECT_LTO_WRAPPER=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper
+Target: x86_64-pxc-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=x86_64-pxc-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-pxc-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot-native/usr/x86_64-pxc-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/
+LIBRARY_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_4e7b7' '-dumpdir' 'cmTC_4e7b7.'
+ /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2 -plugin /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so -plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccULjxMp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -pie -o cmTC_4e7b7 /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o -L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_4e7b7' '-dumpdir' 'cmTC_4e7b7.'
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-pxc-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4e7b7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4e7b7.dir/build.make CMakeFiles/cmTC_4e7b7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -o CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o   -c /home/plc/plcncli/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4e7b7]
+  ignore line: [/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e7b7.dir/link.txt --verbose=1]
+  ignore line: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2  -v CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o  -o cmTC_4e7b7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pxc-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=x86_64-pxc-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-pxc-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot-native/usr/x86_64-pxc-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/]
+  ignore line: [LIBRARY_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_4e7b7' '-dumpdir' 'cmTC_4e7b7.']
+  link line: [ /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2 -plugin /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so -plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccULjxMp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -pie -o cmTC_4e7b7 /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o -L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o]
+    arg [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccULjxMp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4e7b7] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+    arg [CMakeFiles/cmTC_4e7b7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_905e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_905e6.dir/build.make CMakeFiles/cmTC_905e6.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_905e6.dir/feature_tests.c.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c11 -o CMakeFiles/cmTC_905e6.dir/feature_tests.c.o   -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_905e6
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_905e6.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_905e6.dir/feature_tests.c.o  -o cmTC_905e6 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30d1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30d1f.dir/build.make CMakeFiles/cmTC_30d1f.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30d1f.dir/feature_tests.c.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c99 -o CMakeFiles/cmTC_30d1f.dir/feature_tests.c.o   -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_30d1f
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d1f.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_30d1f.dir/feature_tests.c.o  -o cmTC_30d1f 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed082/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed082.dir/build.make CMakeFiles/cmTC_ed082.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed082.dir/feature_tests.c.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c90 -o CMakeFiles/cmTC_ed082.dir/feature_tests.c.o   -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ed082
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed082.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux   -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_ed082.dir/feature_tests.c.o  -o cmTC_ed082 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44116.dir/build.make CMakeFiles/cmTC_44116.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44116.dir/testCXXCompiler.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++17 -o CMakeFiles/cmTC_44116.dir/testCXXCompiler.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_44116
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44116.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_44116.dir/testCXXCompiler.cxx.o  -o cmTC_44116 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d329/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d329.dir/build.make CMakeFiles/cmTC_7d329.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++17 -o CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o -c /home/plc/plcncli/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7d329
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d329.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2  -v CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7d329 
+Using built-in specs.
+COLLECT_GCC=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++
+COLLECT_LTO_WRAPPER=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper
+Target: x86_64-pxc-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=x86_64-pxc-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-pxc-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot-native/usr/x86_64-pxc-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/
+LIBRARY_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_7d329' '-shared-libgcc' '-dumpdir' 'cmTC_7d329.'
+ /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2 -plugin /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so -plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclBLrCJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -pie -o cmTC_7d329 /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o -L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_7d329' '-shared-libgcc' '-dumpdir' 'cmTC_7d329.'
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-pxc-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7d329/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7d329.dir/build.make CMakeFiles/cmTC_7d329.dir/build]
+  ignore line: [make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++17 -o CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o -c /home/plc/plcncli/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7d329]
+  ignore line: [/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d329.dir/link.txt --verbose=1]
+  ignore line: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2  -v CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7d329 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pxc-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=x86_64-pxc-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=x86_64-pxc-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot-native/usr/x86_64-pxc-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/yocto/jenkins/workspace/TROL-DOCKER-X86-64_demo_sps-2022/docker-x86-64_build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-x86-64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/]
+  ignore line: [LIBRARY_PATH=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/:/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mfpmath=sse' '-m64' '-march=nehalem' '-mtune=generic' '-mfpmath=sse' '-msse4.2' '-v' '-o' 'cmTC_7d329' '-shared-libgcc' '-dumpdir' 'cmTC_7d329.']
+  link line: [ /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2 -plugin /home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so -plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclBLrCJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib/ld-linux-x86-64.so.2 -pie -o cmTC_7d329 /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o -L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0 -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib -L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o /home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o]
+    arg [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclBLrCJ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7d329] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+    arg [-L/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib] ==> dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+    arg [CMakeFiles/cmTC_7d329.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0/crtendS.o] ==> ignore
+    arg [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib/../lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/../lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib]
+  collapse library dir [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib] ==> [/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/lib/x86_64-pxc-linux/gcc/x86_64-pxc-linux/11.3.0;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/lib;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib/x86_64-pxc-linux/11.3.0;/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e546/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e546.dir/build.make CMakeFiles/cmTC_7e546.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e546.dir/feature_tests.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++2a -std=c++17 -o CMakeFiles/cmTC_7e546.dir/feature_tests.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7e546
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e546.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_7e546.dir/feature_tests.cxx.o  -o cmTC_7e546 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dbf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dbf2.dir/build.make CMakeFiles/cmTC_3dbf2.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3dbf2.dir/feature_tests.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++17 -std=c++17 -o CMakeFiles/cmTC_3dbf2.dir/feature_tests.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3dbf2
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dbf2.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_3dbf2.dir/feature_tests.cxx.o  -o cmTC_3dbf2 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fcc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fcc1.dir/build.make CMakeFiles/cmTC_2fcc1.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fcc1.dir/feature_tests.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++14 -std=c++17 -o CMakeFiles/cmTC_2fcc1.dir/feature_tests.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2fcc1
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fcc1.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_2fcc1.dir/feature_tests.cxx.o  -o cmTC_2fcc1 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4b32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4b32.dir/build.make CMakeFiles/cmTC_b4b32.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4b32.dir/feature_tests.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++11 -std=c++17 -o CMakeFiles/cmTC_b4b32.dir/feature_tests.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b4b32
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4b32.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_b4b32.dir/feature_tests.cxx.o  -o cmTC_b4b32 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a438/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a438.dir/build.make CMakeFiles/cmTC_9a438.dir/build
+make[1]: Entering directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a438.dir/feature_tests.cxx.o
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -std=c++98 -std=c++17 -o CMakeFiles/cmTC_9a438.dir/feature_tests.cxx.o -c /home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9a438
+/home/plc/plcncli/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a438.dir/link.txt --verbose=1
+/home/plc2/AXCF3152/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ --sysroot=/home/plc2/AXCF3152/sysroots/corei7-64-pxc-linux    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2    -m64 -march=nehalem -mtune=generic -mfpmath=sse -msse4.2   CMakeFiles/cmTC_9a438.dir/feature_tests.cxx.o  -o cmTC_9a438 
+make[1]: Leaving directory '/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

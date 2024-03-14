@@ -1,0 +1,1 @@
+/home/plc2/work/NewProject1/bin/AXCF2152_22.6.0.43/Release/lib/libNewProject1.so

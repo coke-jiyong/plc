@@ -1,0 +1,7 @@
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/install/strip.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/install/local.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/Axcf3152.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/install.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/edit_cache.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/rebuild_cache.dir
+/home/plc2/work/Axcf3152/intermediate/cmake/AXCF3152,23.0.2.56/Release/CMakeFiles/list_install_components.dir

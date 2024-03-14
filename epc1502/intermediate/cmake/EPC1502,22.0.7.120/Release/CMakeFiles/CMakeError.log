@@ -1,0 +1,84 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags:  
+
+The output was:
+1
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags:  
+
+The output was:
+1
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lstdc++
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lm
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-gcc 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags:  
+
+The output was:
+1
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/bin/x86_64-pxc-linux/x86_64-pxc-linux-g++ 
+Build flags: ;;-m64;-march=nehalem;-mtune=generic;-mfpmath=sse;-msse4.2
+Id flags:  
+
+The output was:
+1
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crti.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lstdc++
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lm
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc_s
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find -lgcc
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/plc/EPC1502/sysroots/x86_64-pokysdk-linux/usr/libexec/x86_64-pxc-linux/gcc/x86_64-pxc-linux/9.3.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+

@@ -1,0 +1,1 @@
+/home/plc2/work/Axcf3152/bin/AXCF3152_23.0.2.56/Release/lib/libAxcf3152.so
